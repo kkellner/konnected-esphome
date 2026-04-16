@@ -124,7 +124,7 @@ namespace secplus_gdo {
         gdo_config_t gdo_conf = {
             .uart_num = UART_NUM_1,
             .obst_from_status = true,
-            .invert_uart = true,
+            .invert_uart = false,
             .uart_tx_pin = (gpio_num_t)GDO_UART_TX_PIN,
             .uart_rx_pin = (gpio_num_t)GDO_UART_RX_PIN,
             .obst_in_pin = (gpio_num_t)-1,
